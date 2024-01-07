@@ -18,18 +18,41 @@
   </head>
   <body>
     <div class="main">
-        <div id= "navBar">
-        <a href="./home.html">Home</a>
-        <a href="./onlineresume.html">Resume</a>
-        <a href="https://github.com/MariyahW" target="_blank">Github</a>
-        <a href="./contact.html"
-          style="margin-right: 20%" target="_blank">Contact Me</a>
-        <a href="./blog.html" style="margin-left: 20%;">Exclusively Mariyah</a>
-
-      </div>
+      <nav-bar>
+        <nav class="navbar navbar-expand-lg bg-dark-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./contact.html">Contact Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./onlineResume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./blog.html">Exclusively Mariyah</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            See My Work
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://github.com/MariyahW" target="_blank">GitHub</a></li>
+            <li><a class="dropdown-item" href="https://exercism.org/profiles/MariyahW" target="_blank">Exercism</a></li>
+            <li><a class="dropdown-item" href="https://www.freecodecamp.org/MariyahW" target="_blank">Free Code Camp</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </nav-bar>
       <contact-me>
-        <img src="./images/contactpage.gif" alt="gif" style="width: 30%; margin-right: 30%;"></img>
-        <br>
         <form class="form-group" style="width: 50%; justify-content: center;">
           
           <label for="name" class="col-sm-2 col-form-label">Name</label>
@@ -56,28 +79,7 @@
 
         </form>
       </contact-me>
-        <table class="table table-secondary table-borderless table-striped" style="margin-top: 10%; width: 60%; text-align: center;" >
-          <thead>
-            <tr>
-              <th>Number:</th>
-              <td><a class="link-dark" href="tel:240-425-3042" target="_blank">240-425-3042</a></td>
-              
-            </tr>
-           
-          </thead>
-          <tbody>
-            <tr>
-              <th>Location:</th>
-              <td><a class="link-dark" href="https://www.google.com/maps/place/Baltimore,+MD/@39.2848102,-76.7028972,12z/data=!3m1!4b1!4m6!3m5!1s0x89c803aed6f483b7:0x44896a84223e758!8m2!3d39.2903848!4d-76.6121893!16zL20vMDk0anY?entry=ttu"target="_blank" >Baltimore, MD</a>
-              </td>
-            </tr>
-            <tr>
-              <th>Available:</th>
-              <td>DC, MD, VA and Remote</td></tr></tbody>
-          <tfoot></tfoot>
-          
         
-        </table>
       
     </div>
   </body>
