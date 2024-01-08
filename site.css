@@ -42,6 +42,7 @@ name-image img {
 
 #lowerHalf{
   width: 100%;
+  height: 40%;
   display: flex;
   flex-wrap: wrap;
   background-color: #294c60;
