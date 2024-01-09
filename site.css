@@ -1,4 +1,4 @@
-body, html{
+body html{
   height: 100%;
   width: 100%;
 }
@@ -26,8 +26,9 @@ nav-bar a {
 
 about-section {
   width: 100%;
+  height: 30%;
   font-size: large;
-  /* margin-top: 20%; */
+  margin-top: 40%;
   position: relative;
   top: 15%;
   background-color: #001b2e;
@@ -114,15 +115,7 @@ form{
     
 }
 
-/* #hi{
-    transition-property: border, background-color, color;
-    transition-duration: 5s;
-}
-#hi:hover{
-    background-color: #f5cb5c;
-    color: #001B2E;
-    border: #294c60 solid 5px;
-} */
+
 contact-me{
   display: flex;
   flex-wrap: wrap;
@@ -136,10 +129,10 @@ contact-me{
   
 }
 top-image  {
-  position: relative;
+  position: absolute;
   margin-top: 5%;
   width: 100%;
-  height: 55%;
+  height:50%;
  
 }
 
